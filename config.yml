@@ -19,7 +19,7 @@ params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: distillery
     description: "khang's blog"
-    author: Me
+    author: Nguyễn Vũ Khang
     # author: ["Me", "You"] # multiple authors
     images: ["<link or path of image for opengraph, twitter-cards>"]
 
