@@ -17,8 +17,8 @@ minify:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: ExampleSite
-    description: "ExampleSite description"
+    title: distillery
+    description: "khang's blog"
     author: Me
     # author: ["Me", "You"] # multiple authors
     images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -45,8 +45,13 @@ params:
     # profile-mode
     profileMode:
         enabled: false # needs to be explicitly set
-        title: ExampleSite
-        subtitle: "This is subtitle"
+        title: distillery
+        subtitle: >
+            Welcome to my blog. \
+
+            **distillery** is a space where I curate my life experiences and compile them into an archive of useful knowledge.
+
+
         imageUrl: "/icons/compass.png"
         imageWidth: 120
         imageHeight: 120
