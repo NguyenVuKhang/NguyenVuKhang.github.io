@@ -37,13 +37,11 @@ params:
     assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: "/icons/favicon.ico"
-        favicon16x16: "/icons/favicon-16x16.png"
-        favicon32x32: "/icons/favicon-32x32.png"
-        apple_touch_icon: "/icons/apple-touch-icon.png"
-        safari_pinned_tab: "/icons/safari-pinned-tab.svg"
-        main_page_icon: "/icons/beer.png"
-
+    favicon: "<link / absolute url>"
+        favicon16x16:  "<link / absolute url>"
+        favicon32x32:  "<link / absolute url>"
+        apple_touch_icon:  "<link / absolute url>"
+        safari_pinned_tab:  "<link / absolute url>"
     label:
         text: "distillery"
         # icon: /resources/icons/compass.png
