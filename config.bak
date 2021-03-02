@@ -1,7 +1,8 @@
-baseURL: "https://nguyenvukhang.github.io"
+baseURL: http://nguyenvukhang.github.io
+languageCode: en-us
 title: distillery
-paginate: 5
-theme: PaperMod
+publishDir: docs
+theme: "PaperMod"
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -36,23 +37,22 @@ params:
     assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: "<link / abs url>"
-        favicon16x16: "<link / abs url>"
-        favicon32x32: "<link / abs url>"
-        apple_touch_icon: "<link / abs url>"
-        safari_pinned_tab: "<link / abs url>"
-
     label:
-        text: "Home"
-        icon: /apple-touch-icon.png
+        text: "distillery"
+        # icon: /resources/icons/compass.png
         iconHeight: 35
 
     # profile-mode
     profileMode:
         enabled: false # needs to be explicitly set
-        title: ExampleSite
-        subtitle: "This is subtitle"
-        imageUrl: "<img location>"
+        title: distillery
+        subtitle: >
+            Welcome to my blog. \
+
+            **distillery** is a space where I curate my life experiences and compile them into an archive of useful knowledge.
+
+
+        imageUrl: "/icons/compass.png"
         imageWidth: 120
         imageHeight: 120
         imageTitle: my image
@@ -83,7 +83,6 @@ params:
     analytics:
         google:
             SiteVerificationTag: "XYZabc"
-
     cover:
         hidden: true # hide everywhere but not in structured data
         hiddenInList: true # hide on list pages and home
@@ -111,14 +110,5 @@ menu:
           weight: 20
         - identifier: example
           name: example.org
-          url: https://nguyenvukhang.github.io
+          url: https://www.google.com
           weight: 30
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-# pygmentsUseClasses: true
-# markup:
-#     highlight:
-#         # anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         style: monokai
