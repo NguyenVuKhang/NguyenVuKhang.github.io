@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "Building This Site"
+date: 2021-03-02T19:00:22+08:00
 draft: true
 description: "description"
 tags: ["markdown", "css", "html", "themes"]
@@ -12,3 +12,4 @@ TocOpen: true
 weight: 2
 ---
 
+some text
