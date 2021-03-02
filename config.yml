@@ -2,6 +2,7 @@ baseURL: "https://nguyenvukhang.github.io"
 title: distillery
 paginate: 5
 theme: PaperMod
+publishDir: docs
 
 enableRobotsTXT: true
 buildDrafts: false
