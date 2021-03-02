@@ -54,7 +54,7 @@ params:
 
     label:
         text: "Home"
-        icon: /apple-touch-icon.png
+        icon: /safari-pinned-tab.svg
         iconHeight: 35
 
     # profile-mode
@@ -119,10 +119,15 @@ menu:
           name: tags
           url: /tags/
           weight: 20
-        - identifier: example
-          name: example.org
-          url: https://nguyenvukhang.github.io
-          weight: 30
+        - identifier: series
+          name: series
+          url: /series/
+          weight: 20
+
+taxonomies:
+    category: categories
+    series: series
+    tag: tags
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
