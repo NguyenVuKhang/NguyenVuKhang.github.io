@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on distillery</title>
-    <link>https://nguyenvukhang.github.io/posts/</link>
-    <description>Recent content in Posts on distillery</description>
+    <title>author on distillery</title>
+    <link>https://nguyenvukhang.github.io/tags/author/</link>
+    <description>Recent content in author on distillery</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 02 Mar 2021 19:00:22 +0800</lastBuildDate><atom:link href="https://nguyenvukhang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Mar 2021 19:00:22 +0800</lastBuildDate><atom:link href="https://nguyenvukhang.github.io/tags/author/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
       <link>https://nguyenvukhang.github.io/posts/introduction/</link>
